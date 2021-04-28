@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="15dp"
+    android:layout_margin="5dp"
+    android:background="#fff"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -10,12 +14,34 @@
         android:layout_height="wrap_content"
         android:text="Item 1"
         android:textSize="20sp"
-        android:paddingHorizontal="15dp"
-        android:paddingVertical="25dp"
+        android:padding="2dp"
         android:textStyle="bold"
-        android:layout_margin="5dp"
         android:textColor="#000000"
         android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/itemEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item1@exapmle.com"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:textColor="#8F8A8A"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/itemPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="789456123"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:padding="2dp"
+        android:textColor="#8F8A8A"
         />
 
 </LinearLayout>
